@@ -1,0 +1,283 @@
+ body {
+     overflow: -Scroll;
+     overflow-x: hidden;
+     /*overflow-y: hidden;*/
+     
+ }
+ 
+ .cursor {
+     cursor: pointer;
+ }
+ /*1908 980*/
+ 
+ #yuyue {
+     width: 100%;
+     height: 980px;
+     background: url(../image/bg2.jpg) top center no-repeat;
+ }
+ 
+ .wrap {
+     width: 1005px;
+     margin-left: -502px;
+     position: absolute;
+     left: 50%;
+ }
+ 
+ .cirle_sec {
+     position: absolute;
+     width: 1052px;
+     height: 842px;
+     top: 1px;
+     left: -64px;
+ }
+ 
+ .huawen {
+     /*background: url(image/xuanzhuan.png) no-repeat;*/
+     width: 850px;
+     height: 800px;
+     background-size: contain;
+     padding-top: 89px;
+ }
+ 
+ .yuanxing {
+     background: url(./image/cirle.png) no-repeat;
+     width: 800px;
+     height: 600px;
+     background-size: contain;
+ }
+ 
+ .page a {
+     margin-top: 35px;
+     /* background: url(image/c.png) no-repeat 0 0; */
+     width: 723px;
+     height: 748px;
+     display: inline-block;
+     background-size: contain;
+     /* border: 1px solid green; */
+ }
+ 
+ .wrap .page .video-btn span {
+     background: url(../image/waiweifour.png) no-repeat 0 0;
+     width: 775px;
+     height: 820px;
+     background-size: contain;
+     display: inline-block;
+     -webkit-animation: video 11 infinite linear 1000ms 0 ease;
+     -moz-animation: video 11 infinite linear 1000ms 0 ease;
+     -ms-animation: video 11 infinite linear 1500ms 0 ease;
+     animation: video 11 infinite linear 1500ms 0 ease;
+     -moz-animation: video 11 infinite linear;
+     -webkit-animation: video 50S infinite linear;
+     -o-animation: video 11 infinite linear;
+     -ms-animation: video 11 infinite linear;
+     /* animation: video 2s infinite linear; */
+     /*border: 1px solid yellow;*/
+     /*opacity: 0.45;*/
+ }
+ 
+ .yuyuezhuce {
+     position: absolute;
+     width: 290px;
+     height: 75px;
+     top: 580px;
+     left: 426px;
+     background: url(../image/zhuce2_03.png) 0px 0px no-repeat;
+     z-index: 1000;
+     text-indent: -9999px;
+     display: inline-block;
+ }
+ a.yuyuezhuce:hover{
+   background: url(../image/zhuce1.1.png) 0px 0px no-repeat;
+   width: 290px;
+     height: 75px;
+/* opacity: 0.6;
+  filter: alpha(opacity=60);*/
+ }
+ a.yuyuezhuce:active{
+       background: url(../image/hover.png) 0px 0px no-repeat;
+   width: 290px;
+     height: 75px;
+    /*  opacity: 0.6;
+  filter: alpha(opacity=60);*/
+ }
+ .container {
+     width: 100%;
+     height: 1930px;
+     background: #1c1c37 url(http://res.db.netease.com/pc/fab/20160407195131/img/bg_9c6c2c2.jpg) scroll no-repeat center top;
+     min-width: 1200px;
+     overflow: hidden
+ }
+ 
+ .wrap {
+     text-align: center;
+     min-width: 1200px;
+ }
+ /**/
+ /*浮动得花瓣 */
+ 
+ img.fudongceng {
+     position: absolute;
+     z-index: 900;
+     width: auto;
+     height: auto;
+     left: -48%;
+     top: 70px;
+     /* border: 1px solid red; */
+ }
+ 
+ img.fudongceng4 {
+     position: absolute;
+     z-index: 900;
+     width: auto;
+     height: auto;
+     left: -48%;
+     top: 580px;
+ }
+ 
+ img.fudongceng2 {
+     position: absolute;
+     z-index: 900;
+     width: auto;
+     height: auto;
+     left: 46%;
+     top: 700px;
+     /* overflow: hidden; */
+     /* max-height: 300px; */
+ }
+ 
+ img.fudongceng3 {
+     position: absolute;
+     z-index: 900;
+     width: auto;
+     height: auto;
+     left: 76%;
+     top: 120px;
+ }
+ 
+ .yumaoceng {
+     overflow-x: hidden;
+     overflow-y: auto;
+ }
+ /*首屏箭頭*/
+ 
+ .arrow {
+     width: 100px;
+     height: 75px;
+     background: url(../image/arrow.png) no-repeat;
+     position: absolute;
+     top: 885px;
+     left: 47%;
+     margin-left: -113px;
+     -moz-animation: bounceInUp 1.8s infinite;
+     -webkit-animation: bounceInUp 1.8s infinite;
+     -o-animation: bounceInUp 1.8s infinite;
+     -ms-animation: bounceInUp 1.8s infinite;
+     animation: bounceInUp 1.8s infinite;
+     cursor: pointer;
+ }
+ /*zhuce*/
+ 
+ form#libao {
+     position: fixed;
+     z-index: 9999999;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+ }
+ 
+ form#libao .libao_con {
+     position: absolute;
+     width: 691px;
+     height: 486px;
+     left: 50%;
+     top: 50%;
+     margin-left: -536px;
+     margin-top: -340px;
+     background-repeat: no-repeat;
+     background: url(../image/regi_tan.png) no-repeat;
+     width: 1072px;
+     height: 699px;
+ }
+ 
+ form#libao .close {
+     text-indent: -9999px;
+     position: absolute;
+     width: 60px;
+     height: 60px;
+     right: 25px;
+     top: 0;
+     -moz-animation: video 1.8s infinite;
+     -webkit-animation: video 1.8s infinite;
+     -o-animation: video 1.8s infinite;
+     -ms-animation: video 1.8s infinite;
+     animation: video 1.8s infinite;
+     border: 1px solid red;
+     /*background: url(../image/close.png)no-repeat;*/
+ }
+ 
+ form#libao #phone {
+     display: block;
+     position: absolute;
+     width: 498px;
+     height: 48px;
+     left: 50%;
+     margin-left: -225px;
+     padding: 0;
+     line-height: 50px;
+     font-size: 16px;
+     color: #fcfbfc;
+     text-align: center;
+     outline: 0;
+     background: 0 0;
+     border: 1px solid #ebe3f1;
+     top: 27%;
+     background: #d9d5db;
+ }
+ 
+ form#libao #yanzheng {
+     position: absolute;
+     width: 277px;
+     height: 48px;
+     /* top: 255px; */
+     /* right: 50%; */
+     margin-right: -225px;
+     line-height: 48px;
+     font-size: 16px;
+     color: #fff;
+     text-align: center;
+     background: #d9d5db;
+     border: 1px solid #f8f9ff;
+     border-radius: 7px;
+     top: 286px;
+     left: 310px;
+ }
+ 
+ form#libao button.post {
+     width: 194px;
+     height: 52px;
+     background-color: #dbb4e6;
+     font-size: 21px;
+     border: 1px solid rgba(189, 177, 177, .05);
+     border-radius: 6px;
+     position: absolute;
+     /* top: 255px; */
+     /* left: 311px; */
+     top: 283px;
+     right: 24%;
+     color: white;
+ }
+ 
+ form#libao button.get {
+     position: absolute;
+     width: 197px;
+     height: 63px;
+     top: 385px;
+     left: 50%;
+     margin-left: -99px;
+     background-repeat: no-repeat;
+     background-color: #dbb4e6;
+     color: white;
+     border: 1px solid white;
+     border-radius: 7px;
+ }

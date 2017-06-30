@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style>
+   
+*{margin:0px;padding:0px;list-style-type:none;}
+a,img{border:0;} 
+a{color:#333;text-decoration:none;}
+a:hover{color:#333;text-decoration:underline;}   
+
+
+.wapper{width:840px;height:370px;background-color:#f7f7f7;margin:0 auto;margin-top:100px;overflow:hidden;} 
+        
+.wapper ul{margin-top:30px;}        
+
+.wapper li{float:left;margin-left:30px;width:240px;height:300px;background-color:#fff;color:#fff;text-align:center;font-weight:bold;display:inline-block;}
+
+.wapper li .pic{margin:0 0 30px 0;}
+.wapper li .title{margin:0 10px 2px}
+.wapper li .title a{color:#333;display:block;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;_zoom:1}
+.wapper li .desc{margin:0 10px 10px;height:18px;font-size:12px;text-align:center;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;_zoom:1;color:#b0b0b0}   
+.wapper li .price{margin:0 10px 14px;color:#ff6700;}    
+        
+.wapper li{
+     transition:All 0.4s ease-in-out; 
+     -webkit-transition:All 0.4s ease-in-out; 
+    -moz-transition:All 0.4s ease-in-out;
+    -o-transition:All 0.4s ease-in-out;
+}
+.wapper li:hover {
+    transform:translate(0,-10px);
+    -webkit-transform:translate(0,-10px);
+    -moz-transform:translate(0,-10px);
+    -o-transform:translate(0,-10px);
+    -ms-transform:translate(0,-10px);
+    -webkit-box-shadow:0px 5px 15px #e5e5e5;
+    -moz-box-shadow:0px 5px 15px #e5e5e5;
+    box-shadow:0px 5px 15px #e5e5e5;
+}
+</style>
+  <!--   <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #Img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #Main {
+        background-color: #F60;
+        width: 1177px;
+        height: 570px;
+    }
+    </style> -->
+</head>
+
+<body>
+<div class="wapper">
+    <ul>
+        <li>
+            <div class="pic"><img src="image/pic_01.jpg" width="160" height="160" /></div>
+            <h3 class="title"><a href="#">米家扫地机器人</a></h3>
+            <p class="desc">远程智能控制，扫得干净扫得快</p>
+            <p class="price"> <span class="num">1699</span>元 </p>
+        </li>
+        <li>
+            <div class="pic"><img src="image/pic_02.jpg" width="160" height="160" /></div>
+            <h3 class="title"><a href="#">米家扫地机器人</a></h3>
+            <p class="desc">远程智能控制，扫得干净扫得快</p>
+            <p class="price"> <span class="num">1699</span>元 </p>
+        </li>
+        <li>
+            <div class="pic"><img src="image/pic_03.jpg" width="160" height="160" /></div>
+            <h3 class="title"><a href="#">米家扫地机器人</a></h3>
+            <p class="desc">远程智能控制，扫得干净扫得快</p>
+            <p class="price"> <span class="num">1699</span>元 </p>
+        </li>
+    </ul>
+</div>
+   <!--  <div id="Main">
+        <img src="image/arrow.png" id="Img" />
+    </div> -->
+    <!-- <div class="wrap"><img src="image/.png" alt="" id="pic" style="position: absolute;"> </div> -->
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script>
+    // window.onload = Main;
+    // //全局坐标变量
+    // var x = "";
+    // var y = "";
+    // //定位图片位置
+    // function GetMouse(oEvent) {
+    //     x = oEvent.clientX;
+    //     y = oEvent.clientY;
+    //     document.getElementById("Img").style.left = (parseInt(x) - 100) + "px";
+    //     document.getElementById("Img").style.top = y + "px";
+    // }
+    //入口
+    // function Main() {
+    //     var ele = document.getElementById("Main");
+    //     //注册鼠标移动事件
+    //     ele.onmousemove = function() {
+    //             GetMouse(event);
+    //         }
+    //         // 注册鼠标按下事件
+    //     ele.onmousedown = function() {
+    //             ChangeBg("Img", "MUp.png");
+    //         } //注册鼠标弹回事件
+    //     ele.onmouseup = function() {
+    //         ChangeBg("Img", "MDown.png");
+    //     }
+    // }
+    //图片变化  function ChangeBg(id,url)
+    // {
+    //     document.getElementById(id).src = url;
+    // }
+    // function move() {
+    //     // body...
+    //     mouseX=event.x;
+    //     mouseY=event.y;
+    //     pic.style.left=mouseX;
+    //     pic.style.top=mouseY;
+
+    //        // }document.onmousemove=move;
+    //        $('.wrap').mousemove(function(e) {
+    //     var x = (e.pageX * -1 / 2), y = (e.pageY * -1 / 2);
+    //     $(this).css('background-position', x + 'px ' + y + 'px');
+    // });
+    </script>
+</body>
+
+</html>
